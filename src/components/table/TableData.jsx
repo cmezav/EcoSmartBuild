@@ -70,6 +70,7 @@ const TableData = () => {
                     <TableCell style={{fontWeight: 'bold'}}>Hora</TableCell>
                     <TableCell style={{fontWeight: 'bold'}}>Estado</TableCell>
                     <TableCell style={{fontWeight: 'bold'}}>Detalles</TableCell>
+                    
                   </TableRow>
                 </TableHead>
                 <TableBody>

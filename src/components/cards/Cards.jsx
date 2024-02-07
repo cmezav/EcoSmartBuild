@@ -4,6 +4,7 @@ import "./cards.css"
 import TrendingUpIcon from "@mui/icons-material/TrendingUp"
 import Common from "../../common/Common"
 
+
 const Cards = () => {
   const data = {
     series: [26],
