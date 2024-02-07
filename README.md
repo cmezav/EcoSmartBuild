@@ -1,6 +1,6 @@
 #  Deploy Publicado para nuestro proyecto EcoSmartBuild
 
-Ver Proyecto Disponible [AQUÍ](https://main--ecosmartbuild.netlify.app/).
+Ver Proyecto Publicado [AQUÍ](https://main--ecosmartbuild.netlify.app/).
 
 ![Modo Oscuro](images/dark-mode.png)
 ![Modo Claro](images/light-mode.png)
