@@ -2,6 +2,9 @@
 
 Ver Proyecto Disponible [AQUÍ](https://main--ecosmartbuild.netlify.app/).
 
+![Modo Oscuro](images/dark-mode.png)
+![Modo Claro](images/light-mode.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
