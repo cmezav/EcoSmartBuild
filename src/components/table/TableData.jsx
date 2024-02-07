@@ -65,11 +65,11 @@ const TableData = () => {
                 <TableHead>
                   <TableRow>
                     <TableCell>#</TableCell>
-                    <TableCell>Dispositivo</TableCell>
-                    <TableCell>Fecha</TableCell>
-                    <TableCell>Hora</TableCell>
-                    <TableCell>Estado</TableCell>
-                    <TableCell>Detalles</TableCell>
+                    <TableCell style={{fontWeight: 'bold'}}>Dispositivo</TableCell>
+                    <TableCell style={{fontWeight: 'bold'}}>Fecha</TableCell>
+                    <TableCell style={{fontWeight: 'bold'}}>Hora</TableCell>
+                    <TableCell style={{fontWeight: 'bold'}}>Estado</TableCell>
+                    <TableCell style={{fontWeight: 'bold'}}>Detalles</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -81,7 +81,9 @@ const TableData = () => {
                       <TableCell>{row.ProjectName}</TableCell>
                       <TableCell>{row.StartDate}</TableCell>
                       <TableCell>{row.DueDate}</TableCell>
-                      <TableCell className='status'>{row.Status}</TableCell>
+                      <TableCell style={{fontWeight: 'bold',color: row.Status === 'Solucionado' ? '#0c8828' : row.Status === 'Pendiente' ? 'orange' : row.Status === 'Estado de error' ? 'red' : 'inherit' }}>
+        {row.Status}
+      </TableCell>
                       <TableCell><button class="button seeMore">{row.Assign}</button></TableCell>
                     </TableRow>
                   ))}

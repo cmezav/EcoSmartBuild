@@ -55,12 +55,26 @@ const Cards = () => {
   }
   const Progress = ({ done }) => {
     return (
-      <div className='progress'>
+      <div className='progress' style={{ width: '100%' }}>
         <div
           className='progress-done'
           style={{
             opacity: 1,
             width: `${done}%`,
+          }}
+        ></div>
+      </div>
+    )
+  }
+  const Progress2 = ({ done }) => {
+    return (
+      <div className='progress'style={{ backgroundColor: '#793A6D', width: '100%' }}>
+        <div
+          className='progress-done'
+          style={{
+            opacity: 1,
+            width: `${done}%`,
+            backgroundColor: '#fb8bca',
           }}
         ></div>
       </div>
@@ -120,7 +134,7 @@ const Cards = () => {
               <p>Ambiente</p>
             </div>
           </div>
-          <Progress done='21' />
+          <Progress2 done='21' />
         </div>
       </section>
     </>
