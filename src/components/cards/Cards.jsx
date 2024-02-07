@@ -127,7 +127,7 @@ const Cards = () => {
           <Common title='Humedad' />
           <div className='circle'>
             <div className='batch batch1 row'>
-              <span>21%</span>
+              <span>54%</span>
               <TrendingUpIcon className='batchIcon' />
             </div>
             <div className='title row'>
@@ -135,7 +135,7 @@ const Cards = () => {
               <p>Ambiente</p>
             </div>
           </div>
-          <Progress2 done='21' />
+          <Progress2 done='54' />
         </div>
       </section>
     </>
