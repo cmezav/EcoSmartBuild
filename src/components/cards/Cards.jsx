@@ -92,7 +92,7 @@ const Cards = () => {
               <ReactApexChart options={data.options} series={data.series} type='radialBar' height={150} />
             </div>
             <div className='title row'>
-              <h1>256</h1>
+              <h1>25°C</h1>
               <p>Temperatura Promedio del día</p>
             </div>
           </div>
